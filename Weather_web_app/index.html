@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather checker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Want to see what the weather is like?</h1>
+        <div class="top-layer">
+            <div>
+                <input class="search" type="text" id="cityInput" placeholder="Enter a City">
+                <ul id="suggestions"></ul>
+            </div>
+            <button id="searchBtn" class="search-btn">Get Weather</button>
+        </div>
+        <div class="weather" id="weatherInfo">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img id="icon" alt="">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
